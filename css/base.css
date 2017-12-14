@@ -1,0 +1,23 @@
+/*
+* @Author: 11069
+* @Date:   2017-12-05 10:23:38
+* @Last Modified by:   11069
+* @Last Modified time: 2017-12-06 22:26:43
+*/
+*{
+	margin:0;
+	padding:0;
+	font-family: "微软雅黑","宋体",sans-serif;
+	font-size: 16px;
+	list-style: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+i{
+	font-style: normal;
+}

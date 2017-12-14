@@ -1,0 +1,179 @@
+/*
+* @Author: 11069
+* @Date:   2017-12-07 23:51:10
+* @Last Modified by:   11069
+* @Last Modified time: 2017-12-08 01:06:05
+*/
+@import url('base.css');
+@font-face {
+  font-family: 'iconfont';  /* project id 500147 */
+  src: url('http://at.alicdn.com/t/font_500147_zqruh2pxcqpk3xr.eot');
+  src: url('http://at.alicdn.com/t/font_500147_zqruh2pxcqpk3xr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_500147_zqruh2pxcqpk3xr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_500147_zqruh2pxcqpk3xr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_500147_zqruh2pxcqpk3xr.svg#iconfont') format('svg');
+}
+i{
+	font-family: 'iconfont';
+	font-style: normal;
+}
+body{
+	background: #f5f5f5;
+}
+header{
+	width: 4.69rem;
+	height: 0.54rem;
+	background-image: -webkit-linear-gradient(135deg, #43CBFF 10%, #9708CC 100%);
+}
+.header-x{
+	width: 2.80rem;
+	height: 0.54rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-x a{
+	width: 0.54rem;
+	height: 0.54rem;
+}
+.header-x a i{
+	display: block;
+	font-size: 0.24rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.54rem;
+}
+.header-x span{
+	font-size: 0.22rem;
+	color: #fff;
+	font-weight: bold;
+}
+.touxiangyonghuming{
+	width: 4.69rem;
+	height: 1.5rem;
+}
+.txk{
+	width: 4.29rem;
+	height: 0.87rem;
+	padding-left: 0.18rem;
+	padding-right: 0.22rem;
+	background: #fff;
+	border-bottom: 0.01rem solid #f8f8f8;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.txk span{
+	font-size: 0.2rem;
+	color: #000;
+	font-weight: bold;
+}
+.txk-y{
+	width: 0.8rem;
+	height: 0.62rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.tx{
+	width: 0.62rem;
+	height: 0.62rem;
+	border-radius: 50%;
+	background: red;
+}
+.tx img{
+	width: 0.62rem;
+	height: 0.62rem;
+	border-radius: 50%;
+}
+.txk-y i{
+	font-size: 0.2rem;
+	color: #999999;
+}
+.yhm{
+	width: 4.29rem;
+	height: 0.62rem;
+	padding-left: 0.18rem;
+	padding-right: 0.22rem;
+	background: #fff;
+	border-bottom: 0.01rem solid #f8f8f8;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.yhm span:first-child{
+	font-size: 0.2rem;
+	color: #000;
+	font-weight: bold;
+}
+.yhm span:last-child{
+	font-size: 0.2rem;
+	color: #787878;
+}
+.yhm span:last-child i{
+	font-size: 0.2rem;
+	color: #999999;
+	margin-left: 0.1rem;
+}
+.zhbd{
+	width: 100%;
+	height: 0.96rem;
+	margin-top: 0.12rem;
+}
+.zhbd-s{
+	height: 0.35rem;
+	font-size: 0.14rem;
+	padding-left: 0.18rem;
+	color: #999999;
+	line-height: 0.35rem;
+}
+.zhbd-x{
+	height: 0.6rem;
+	width: 4.29rem;
+	background: #fff;
+	padding-left: 0.18rem;
+	padding-right: 0.22rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.zhbd-x span:first-child{
+	font-size: 0.22rem;
+	color: #333333;
+	font-weight: bold;
+}
+.zhbd-x span:first-child i{
+	font-size: 0.2rem;
+	color: #0097ff;
+	margin-right: 0.1rem;
+}
+.zhbd-x span:last-child{
+	font-size: 0.2rem;
+	color: #666666;
+}
+.zhbd-x span:last-child i{
+	font-size: 0.2rem;
+	color: #999999;
+}
+.aqsz .zhbd-x span:first-child{
+	font-size: 0.18rem;
+	color: #333333;
+	font-weight: normal;
+}
+.aqsz .zhbd-x span:last-child{
+	color: #57baff;
+}
+.tcdl{
+	width: 100%;
+	height: 0.6rem;
+	background: #ffffff;
+	margin-top: 0.24rem;
+	border-top: 0.01rem solid #fafafa;
+	border-bottom: 0.01rem solid #fafafa;
+	display: block;
+	font-size: 0.2rem;
+	color: #ff5339;
+	text-align: center;
+	line-height: 0.6rem;
+	font-weight: bold;
+}

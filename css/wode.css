@@ -1,0 +1,257 @@
+/*
+* @Author: 11069
+* @Date:   2017-12-07 16:24:45
+* @Last Modified by:   11069
+* @Last Modified time: 2017-12-08 08:35:43
+*/
+@import url('base.css');
+@font-face {
+  font-family: 'iconfont';  /* project id 500147 */
+  src: url('http://at.alicdn.com/t/font_500147_zqruh2pxcqpk3xr.eot');
+  src: url('http://at.alicdn.com/t/font_500147_zqruh2pxcqpk3xr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_500147_zqruh2pxcqpk3xr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_500147_zqruh2pxcqpk3xr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_500147_zqruh2pxcqpk3xr.svg#iconfont') format('svg');
+}
+i{
+	font-family: 'iconfont';
+	font-style: normal;
+}
+body{
+	background: #f5f5f5;
+}
+header{
+	width: 4.69rem;
+	height: 1.92rem;
+	background-image: -webkit-linear-gradient(135deg, #43CBFF 10%, #9708CC 100%);
+}
+
+.header-top{
+	width: 100%;
+	height: 0.58rem;
+	margin: 0 auto;	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-top a{
+	display: flex;
+	width: 0.58rem;
+	height: 0.58rem;
+	justify-content: center;
+	align-items: center;
+}
+.header-top a i{
+	font-size: 0.22rem;
+	color: #fff;
+}
+.header-top a:last-child i{
+	font-size: 0.26rem;
+	color: #fff;
+}
+.header-top span{
+	display: block;
+	font-size: 0.22rem;
+	color: #fff;
+	font-weight: bold;
+}
+.header-bottom{
+	display: block;
+	height: 1.34rem;
+	overflow: hidden;
+	width: 100%;
+}
+.header-bottom-z{
+	width: 4.32rem;
+	height: 0.77rem;
+	margin: 0 auto;
+	margin-top: 0.3rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header-b-l{
+	width: 0.77rem;
+	height: 0.77rem;
+	border-radius: 50%;
+	background: #fff;
+}
+.header-b-l img{
+	width: 0.77rem;
+	height: 0.77rem;
+	border-radius: 50%;
+}
+.header-b-c{
+	width: 2rem;
+	height: 0.5rem;
+	margin-left: -0.8rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.header-b-c span:first-child{
+	display: block;
+	width: 100%;
+	font-size: 0.2rem;
+	font-weight: bold;
+	color: #fff;
+}
+.header-b-c span:last-child{
+	font-size: 0.12rem;
+	color: #fff;
+}
+.header-b-c span:last-child i{
+	font-size: 0.12rem;
+	color: #fff;
+}
+.header-b-r{
+	display: block;
+	font-size: 0.3rem;
+	color: #fff;
+}
+section{
+	width: 4.69rem;
+	height: 1.05rem;
+	background: #f7f7f7;
+	border-bottom: 0.01rem solid #ececec;
+	display: flex;
+	justify-content: space-between;
+}
+.section-nr{
+	width: 1.55rem;
+	height: 1.05rem;
+	background: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.youhui{
+	width: 0.78rem;
+	height: 0.48rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.youhui-s{
+	width: 0.78rem;
+	height: 0.24rem;
+	font-size: 0.14rem;
+	color: #ff5f3e;
+	text-align: center;
+}
+.youhui-s::first-letter{
+	font-size: 0.24rem;
+	font-weight: bold;
+}
+section .section-nr:first-child .youhui .youhui-s{
+	color: #23a9bf;
+}
+section .section-nr:last-child .youhui .youhui-s{
+	color: #6ac20b;
+}
+.youhui-x{
+	width: 0.78rem;
+	height: 0.14rem;
+	font-size: 0.14rem;
+	color: #666666;
+	font-weight: bold;
+	text-align: center;
+}
+
+main{
+	width: 100%;
+	height: auto;
+}
+.main-1{
+	margin-top: 0.13rem;
+	border-top: 0.01rem solid #ececec;
+	border-bottom: 0.01rem solid #ececec;
+}
+.main-1 li{
+	width: 100%;
+	height: 0.56rem;
+	background: #fff;
+}
+.main-1 li a{
+	width: 100%;
+	height: 0.55rem;
+	display: flex;
+}
+.main-icon{
+	width: 0.55rem;
+	height: 0.55rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main-icon i{
+	font-size: 0.24rem;
+	color: #4aa5f0;
+}
+.main-wenzi{
+	width: 3.96rem;
+	height: 0.55rem;
+	padding-right: 0.18rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 0.01rem solid #ececec;
+}
+.main-wenzi span:first-child{
+	font-size: 0.18rem;
+	color: #333333;
+}
+.main-wenzi span:last-child i{
+	color: #bbbbbb;
+	font-size: 0.14rem;
+}
+.main-1 li:last-child a .main-wenzi{
+	border-bottom:0;
+}
+main .main-1:last-child{
+	margin-bottom: 0.64rem;
+}
+.dibu{
+	width: 100%;
+	height: 0.63rem;
+	display: flex;
+	background: #ffffff;
+	border: 0.01rem solid #ededed;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+.dibu li{
+	width: 25%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.dibu li a{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.dibu li i{
+	font-size: 0.24rem;
+	color: #666;
+}
+.dibu li span{
+	font-size: 0.12rem;
+	color: #666;
+}
+.dibu li:last-child i{
+	color: #0b9bff;
+}
+.dibu li:last-child span{
+	color: #0b9bff;
+}
+.dibu li:nth-child(3) i{
+	font-size: 0.3rem;
+	margin-top: -0.08rem;
+}
